@@ -26,7 +26,7 @@ class OSInAppBrowser: CDVPlugin {
             if self.plugin?.openExternalBrowser(argumentsModel.url) == true {
                 self.sendSuccess(for: command.callbackId)
             } else {
-                self.send(error: .openExternalBrowserFailed, for: command.callbackId)
+                self.send(error: .openExternalBrowserFailed(forURL: argumentsModel.url), for: command.callbackId)
             }
         }
     }

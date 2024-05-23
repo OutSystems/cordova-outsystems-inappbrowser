@@ -4,7 +4,7 @@ enum OSInAppBrowserTarget {
 
 enum OSInAppBrowserError: Error {
     case inputArgumentsIssue(target: OSInAppBrowserTarget)
-    case openExternalBrowserFailed
+    case openExternalBrowserFailed(forURL: String)
     
     private var code: Int {
         var result: Int
@@ -21,8 +21,8 @@ enum OSInAppBrowserError: Error {
         var result: String
         
         switch self {
-        case .inputArgumentsIssue: result = ""
-        case .openExternalBrowserFailed: result = ""
+        case .inputArgumentsIssue: result = "The input parameters for 'openInExternalBrowser' are invalid."
+        case .openExternalBrowserFailed(let url): result = "Couldn't open '\(url)' using Safari."
         }
         
         return result
