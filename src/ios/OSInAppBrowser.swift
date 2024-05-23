@@ -4,7 +4,7 @@ import UIKit
 /// The plugin's main class
 @objc(OSInAppBrowser)
 class OSInAppBrowser: CDVPlugin {
-    /// The navite library's main class
+    /// The native library's main class
     private var plugin: OSIABEngine?
     
     override func pluginInitialize() {
@@ -13,16 +13,20 @@ class OSInAppBrowser: CDVPlugin {
     
     @objc(openInExternalBrowser:)
     func openInExternalBrowser(command: CDVInvokedUrlCommand) {
-        guard let url = command.arguments.first as? String else {
-            self.send(error: .inputArgumentsIssue(target: .openInExternalBrowser), for: command.callbackId)
-            return
-        }
-        
         self.commandDelegate.run { [weak self] in
-            if self?.plugin?.openExternalBrowser(url) == true {
-                self?.sendSuccess(for: command.callbackId)
+            guard let self = self else { return }
+            
+            guard let argumentsDictionary = command.argument(at: 0) as? [String: Any],
+                  let argumentsData = try? JSONSerialization.data(withJSONObject: argumentsDictionary),
+                  let argumentsModel = try? JSONDecoder().decode(OSInAppBrowserInputArgumentsModel.self, from: argumentsData)
+            else {
+                return self.send(error: .inputArgumentsIssue(target: .openInExternalBrowser), for: command.callbackId)
+            }
+            
+            if self.plugin?.openExternalBrowser(argumentsModel.url) == true {
+                self.sendSuccess(for: command.callbackId)
             } else {
-                self?.send(error: .openExternalBrowserFailed, for: command.callbackId)
+                self.send(error: .openExternalBrowserFailed, for: command.callbackId)
             }
         }
     }
