@@ -12,14 +12,14 @@ export const DefaultiOSWebViewOptions: iOSWebViewOptions = {
     enableViewportScale: false,
     allowInLineMediaPlayback: false,
     keyboardDisplayRequiresUserAction: true,
-    surpressedIncrementalRendering: false,
+    surpressIncrementalRendering: false,
 
     viewStyle: iOSViewStyle.PAGE_SHEET,
     animation: iOSAnimation.FLIP_HORIZONTAL
 }
 
 export const DefaultWebViewOptions: WebViewOptions = {
-    showToolBar: true,
+    showToolbar: true,
     showURL: false,
 
     clearCache: true,
@@ -29,7 +29,7 @@ export const DefaultWebViewOptions: WebViewOptions = {
     closeButtonText: "Close",
     toolbarPosition: ToolbarPosition.TOP,
 
-    showNatigationButtons: true,
+    showNavigationButtons: true,
     leftToRight: false,
 
     android: DefaultAndroidWebViewOptions,

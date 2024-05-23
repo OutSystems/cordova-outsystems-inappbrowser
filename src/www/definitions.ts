@@ -43,12 +43,12 @@ export interface CommonOptions {
 
 export interface WebViewOptions extends CommonOptions {
   showURL: boolean;
-  showToolBar: boolean;
+  showToolbar: boolean;
   
   closeButtonText: string;
   toolbarPosition: ToolbarPosition;
   
-  showNatigationButtons: boolean;
+  showNavigationButtons: boolean;
   leftToRight: boolean;
   
   android: AndroidWebViewOptions,
@@ -61,7 +61,7 @@ export interface iOSWebViewOptions {
   enableViewportScale: boolean;
   allowInLineMediaPlayback: boolean;
   keyboardDisplayRequiresUserAction: boolean;
-  surpressedIncrementalRendering: boolean;
+  surpressIncrementalRendering: boolean;
 
   viewStyle: iOSViewStyle;
   animation: iOSAnimation;
