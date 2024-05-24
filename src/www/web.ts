@@ -19,7 +19,7 @@ function openInSystemBrowser(url: string, options: SystemBrowserOptions, success
   if(browserCallbacks)
     console.log(`with browser callbacks ${JSON.stringify(browserCallbacks)}`)
   
-  exec(success, error, 'OSInAppBrowser', 'coolMethod', [{url, options, browserCallbacks}])  
+  exec(success, error, 'OSInAppBrowser', 'openInSystemBrowser', [{url, options, browserCallbacks}])  
 }
 
 function openInExternalBrowser(url: string, success: () => void, error: (error: PluginError) => void): void {

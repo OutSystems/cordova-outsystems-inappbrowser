@@ -46,19 +46,19 @@ const DefaultiOSWebViewOptions = {
   enableViewportScale: false,
   allowInLineMediaPlayback: false,
   keyboardDisplayRequiresUserAction: true,
-  surpressedIncrementalRendering: false,
+  surpressIncrementalRendering: false,
   viewStyle: iOSViewStyle.PAGE_SHEET,
   animation: iOSAnimation.FLIP_HORIZONTAL
 };
 const DefaultWebViewOptions = {
-  showToolBar: true,
+  showToolbar: true,
   showURL: false,
   clearCache: true,
   clearSessionCache: true,
   mediaPlaybackRequiresUserAction: false,
   closeButtonText: "Close",
   toolbarPosition: ToolbarPosition.TOP,
-  showNatigationButtons: true,
+  showNavigationButtons: true,
   leftToRight: false,
   android: DefaultAndroidWebViewOptions,
   iOS: DefaultiOSWebViewOptions
@@ -99,7 +99,7 @@ function openInSystemBrowser(url, options, success, error, browserCallbacks) {
  with options: ${JSON.stringify(options)}`);
   if (browserCallbacks)
     console.log(`with browser callbacks ${JSON.stringify(browserCallbacks)}`);
-  exec(success, error, "OSInAppBrowser", "coolMethod", [{ url, options, browserCallbacks }]);
+  exec(success, error, "OSInAppBrowser", "openInSystemBrowser", [{ url, options, browserCallbacks }]);
 }
 function openInExternalBrowser(url, success, error) {
   exec(success, error, "OSInAppBrowser", "openInExternalBrowser", [{ url }]);
