@@ -123,8 +123,8 @@ private extension OSIABEngine where SystemBrowser == OSIABSafariViewControllerRo
     }
 }
 
-enum OSIABEventType: String {
-    case success = "SUCCESS"
-    case pageClosed = "PAGE_CLOSED"
-    case pageLoadCompleted = "PAGE_COMPLETED"
+enum OSIABEventType: Int {
+    case success = 0
+    case pageClosed
+    case pageLoadCompleted
 }
