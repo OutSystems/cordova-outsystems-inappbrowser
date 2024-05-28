@@ -85,10 +85,7 @@ const DefaultAndroidSystemBrowserOptions = {
 };
 const DefaultSystemBrowserOptions = {
   android: DefaultAndroidSystemBrowserOptions,
-  iOS: DefaultiOSSystemBrowserOptions,
-  clearCache: false,
-  clearSessionCache: false,
-  mediaPlaybackRequiresUserAction: false
+  iOS: DefaultiOSSystemBrowserOptions
 };
 var exec = cordova.require("cordova/exec");
 function trigger(type, success, onbrowserClosed = void 0, onbrowserPageLoaded = void 0) {
