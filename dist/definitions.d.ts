@@ -90,3 +90,8 @@ export interface BrowserCallbacks {
     onbrowserClosed: () => void;
     onbrowserPageLoaded: () => void;
 }
+export declare enum CallbackEvent {
+    SUCCESS = 0,
+    PAGE_CLOSED = 1,
+    PAGE_LOAD_COMPLETED = 2
+}

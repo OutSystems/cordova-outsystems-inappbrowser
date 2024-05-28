@@ -51,7 +51,7 @@ export const DefaultAndroidSystemBrowserOptions: AndroidSystemBrowserOptions = {
     viewStyle: AndroidViewStyle.BOTTOM_SHEET,
     
     startAnimation: AndroidAnimation.FADE_IN,
-    exitAnimation: AndroidAnimation.FADE_IN
+    exitAnimation: AndroidAnimation.FADE_OUT
 }
    
 export const DefaultSystemBrowserOptions: SystemBrowserOptions = {
