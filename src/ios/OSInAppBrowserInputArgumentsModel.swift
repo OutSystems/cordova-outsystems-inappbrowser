@@ -21,7 +21,6 @@ class OSInAppBrowserInputArgumentsSystemBrowserModel: OSInAppBrowserInputArgumen
     
     enum CodingKeys: CodingKey {
         case options
-        case browserCallbacks
     }
     
     required init(from decoder: Decoder) throws {

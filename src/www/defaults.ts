@@ -37,9 +37,9 @@ export const DefaultWebViewOptions: WebViewOptions = {
 }
 
 export const DefaultiOSSystemBrowserOptions: iOSSystemBrowserOptions = {
-    closeButtonText: DismissStyle.CLOSE,
-    viewStyle: iOSViewStyle.PAGE_SHEET,
-    animationEffect: iOSAnimation.FLIP_HORIZONTAL,
+    closeButtonText: DismissStyle.DONE,
+    viewStyle: iOSViewStyle.FULL_SCREEN,
+    animationEffect: iOSAnimation.COVER_VERTICAL,
     enableBarsCollapsing: true,
     enableReadersMode: false
 }

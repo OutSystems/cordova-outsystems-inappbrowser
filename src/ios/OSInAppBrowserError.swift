@@ -22,8 +22,15 @@ enum OSInAppBrowserError: Error {
         let result: String
         
         switch self {
-        case .inputArgumentsIssue: 
-            result = "The input parameters for 'openInExternalBrowser' are invalid."
+        case .inputArgumentsIssue(let target):             
+            let targetString: String
+            
+            switch target {
+            case .openInExternalBrowser: targetString = "openInExternalBrowser"
+            case .openInSystemBrowser: targetString = "openInSystemBrowser"
+            }
+            
+            result = "The input parameters for '\(targetString)' are invalid."
         case .failedToOpen(url: let url, onTarget: let target):
             let targetString: String
             

@@ -6,7 +6,6 @@ import UIKit
 class OSInAppBrowser: CDVPlugin {
     /// The native library's main class
     private var plugin: OSIABEngine<OSIABApplicationRouterAdapter, OSIABSafariViewControllerRouterAdapter>?
-    
     private var currentlyOpenedBrowser: (any OSIABRouter)?
     
     override func pluginInitialize() {
@@ -17,15 +16,15 @@ class OSInAppBrowser: CDVPlugin {
     func openInExternalBrowser(command: CDVInvokedUrlCommand) {
         let target = OSInAppBrowserTarget.openInExternalBrowser
         
-        func delegateExternalBrowser(_ url: String, _ callbackId: String) {
+        func delegateExternalBrowser(_ url: String) {
             DispatchQueue.main.async {
                 self.plugin?.openExternalBrowser(url, { [weak self] success in
                     guard let self else { return }
                     
                     if success {
-                        self.send(eventType: .success, for: callbackId)
+                        self.sendSuccess(for: command.callbackId)
                     } else {
-                        self.send(error: .failedToOpen(url: url, onTarget: target), for: callbackId)
+                        self.send(error: .failedToOpen(url: url, onTarget: target), for: command.callbackId)
                     }
                 })
             }
@@ -39,7 +38,7 @@ class OSInAppBrowser: CDVPlugin {
                 return self.send(error: .inputArgumentsIssue(target: target), for: command.callbackId)
             }
             
-            delegateExternalBrowser(argumentsModel.url, command.callbackId)
+            delegateExternalBrowser(argumentsModel.url)
         }
     }
     
@@ -47,7 +46,7 @@ class OSInAppBrowser: CDVPlugin {
     func openInSystemBrowser(command: CDVInvokedUrlCommand) {
         let target = OSInAppBrowserTarget.openInSystemBrowser
         
-        func delegateSystemBrowser(_ url: String, _ options: OSIABSystemBrowserOptions, _ callbackId: String) {
+        func delegateSystemBrowser(_ url: String, _ options: OSIABSystemBrowserOptions) {
             DispatchQueue.main.async {
                 self.currentlyOpenedBrowser = self.plugin?.openSystemBrowser(url, options, { [weak self] event, safariViewController in
                     guard let self else { return }
@@ -56,11 +55,11 @@ class OSInAppBrowser: CDVPlugin {
                         if let safariViewController {
                             self.viewController.show(safariViewController, sender: nil)
                         } else {
-                            self.send(error: .failedToOpen(url: url, onTarget: target), for: callbackId)
+                            self.send(error: .failedToOpen(url: url, onTarget: target), for: command.callbackId)
                         }
                     }
                     
-                    self.send(eventType: event, for: callbackId)
+                    self.sendSuccess(event, for: command.callbackId)
                 })
             }
         }
@@ -73,7 +72,7 @@ class OSInAppBrowser: CDVPlugin {
                 return self.send(error: .inputArgumentsIssue(target: target), for: command.callbackId)
             }
                         
-            delegateSystemBrowser(argumentsModel.url, argumentsModel.toOptions(), command.callbackId)
+            delegateSystemBrowser(argumentsModel.url, argumentsModel.toOptions())
         }
     }
     
@@ -92,9 +91,14 @@ private extension OSInAppBrowser {
         return argumentsModel
     }
     
-    func send(eventType: OSIABEventType, for callbackId: String) {
-        let pluginResult = CDVPluginResult(status: .ok, messageAs: eventType.rawValue)
-        pluginResult?.keepCallback = true
+    func sendSuccess(_ eventType: OSIABEventType? = nil, for callbackId: String) {
+        let pluginResult: CDVPluginResult
+        if let eventType {
+            pluginResult = .init(status: .ok, messageAs: eventType.rawValue)
+            pluginResult.keepCallback = true
+        } else {
+            pluginResult = .init(status: .ok)
+        }
         self.commandDelegate.send(pluginResult, callbackId: callbackId)
     }
     

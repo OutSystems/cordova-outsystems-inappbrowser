@@ -63,7 +63,6 @@ public struct OSIABSystemBrowserOptions {
 }
 @objc public class OSIABSafariViewControllerRouterAdapter : ObjectiveC.NSObject, OSInAppBrowserLib.OSIABRouter {
   public typealias ReturnType = UIKit.UIViewController?
-  public typealias Options = OSInAppBrowserLib.OSIABSystemBrowserOptions
   public init(_ options: OSInAppBrowserLib.OSIABSystemBrowserOptions, onBrowserPageLoad: @escaping () -> Swift.Void, onBrowserClosed: @escaping () -> Swift.Void)
   public func handleOpen(_ urlString: Swift.String, _ completionHandler: @escaping (OSInAppBrowserLib.OSIABSafariViewControllerRouterAdapter.ReturnType) -> Swift.Void)
   @objc deinit

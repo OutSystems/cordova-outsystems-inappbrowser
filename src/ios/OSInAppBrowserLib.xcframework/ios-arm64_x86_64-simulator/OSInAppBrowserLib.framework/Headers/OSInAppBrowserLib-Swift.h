@@ -301,6 +301,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+/// Adapter that makes the required calls so that an <code>SFSafariVieWController</code> implementation can perform the System Browser routing.
 SWIFT_CLASS("_TtC17OSInAppBrowserLib38OSIABSafariViewControllerRouterAdapter")
 @interface OSIABSafariViewControllerRouterAdapter : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -632,6 +633,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+/// Adapter that makes the required calls so that an <code>SFSafariVieWController</code> implementation can perform the System Browser routing.
 SWIFT_CLASS("_TtC17OSInAppBrowserLib38OSIABSafariViewControllerRouterAdapter")
 @interface OSIABSafariViewControllerRouterAdapter : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
