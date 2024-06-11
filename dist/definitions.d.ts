@@ -46,10 +46,9 @@ export interface iOSWebViewOptions {
     allowOverScroll: boolean;
     enableViewportScale: boolean;
     allowInLineMediaPlayback: boolean;
-    keyboardDisplayRequiresUserAction: boolean;
     surpressIncrementalRendering: boolean;
     viewStyle: iOSViewStyle;
-    animation: iOSAnimation;
+    animationEffect: iOSAnimation;
 }
 export interface AndroidWebViewOptions {
     allowZoom: boolean;

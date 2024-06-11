@@ -52,14 +52,13 @@
     allowOverScroll: true,
     enableViewportScale: false,
     allowInLineMediaPlayback: false,
-    keyboardDisplayRequiresUserAction: true,
     surpressIncrementalRendering: false,
-    viewStyle: iOSViewStyle.PAGE_SHEET,
-    animation: iOSAnimation.FLIP_HORIZONTAL
+    viewStyle: iOSViewStyle.FULL_SCREEN,
+    animationEffect: iOSAnimation.COVER_VERTICAL
   };
   const DefaultWebViewOptions = {
     showToolbar: true,
-    showURL: false,
+    showURL: true,
     clearCache: true,
     clearSessionCache: true,
     mediaPlaybackRequiresUserAction: false,
@@ -108,11 +107,16 @@
   }
   function openInWebView(url, options, success, error, browserCallbacks) {
     options = options || DefaultWebViewOptions;
-    console.log(`open in web view for url ${url}
- with options: ${JSON.stringify(options)}`);
-    if (browserCallbacks)
-      console.log(`with browser callbacks ${JSON.stringify(browserCallbacks)}`);
-    exec(success, error, "OSInAppBrowser", "coolMethod", [{ url, options, browserCallbacks }]);
+    let triggerCorrectCallback = function(result) {
+      if (result) {
+        if (browserCallbacks) {
+          trigger(result, success, browserCallbacks.onbrowserClosed, browserCallbacks.onbrowserPageLoaded);
+        } else {
+          trigger(result, success);
+        }
+      }
+    };
+    exec(triggerCorrectCallback, error, "OSInAppBrowser", "openInWebView", [{ url, options }]);
   }
   function openInSystemBrowser(url, options, success, error, browserCallbacks) {
     options = options || DefaultSystemBrowserOptions;
