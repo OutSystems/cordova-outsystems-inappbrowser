@@ -38,9 +38,9 @@
     return DismissStyle2;
   })(DismissStyle || {});
   var CallbackEvent = /* @__PURE__ */ ((CallbackEvent2) => {
-    CallbackEvent2[CallbackEvent2["SUCCESS"] = 0] = "SUCCESS";
-    CallbackEvent2[CallbackEvent2["PAGE_CLOSED"] = 1] = "PAGE_CLOSED";
-    CallbackEvent2[CallbackEvent2["PAGE_LOAD_COMPLETED"] = 2] = "PAGE_LOAD_COMPLETED";
+    CallbackEvent2[CallbackEvent2["SUCCESS"] = 1] = "SUCCESS";
+    CallbackEvent2[CallbackEvent2["PAGE_CLOSED"] = 2] = "PAGE_CLOSED";
+    CallbackEvent2[CallbackEvent2["PAGE_LOAD_COMPLETED"] = 3] = "PAGE_LOAD_COMPLETED";
     return CallbackEvent2;
   })(CallbackEvent || {});
   const DefaultAndroidWebViewOptions = {

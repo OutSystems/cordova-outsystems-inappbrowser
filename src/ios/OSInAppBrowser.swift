@@ -207,7 +207,7 @@ private extension OSInAppBrowserEngine {
 }
  
 enum OSIABEventType: Int {
-    case success = 0
+    case success = 1
     case pageClosed
     case pageLoadCompleted
 }

@@ -114,7 +114,7 @@ export interface BrowserCallbacks {
 }
 
 export enum CallbackEvent {
-  SUCCESS,
-  PAGE_CLOSED,
-  PAGE_LOAD_COMPLETED
+  SUCCESS = 1,
+  PAGE_CLOSED = 2,
+  PAGE_LOAD_COMPLETED = 3
 } 
