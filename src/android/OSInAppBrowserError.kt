@@ -6,5 +6,6 @@ enum class OSInAppBrowserError(val code: Int, val message: String) {
     INPUT_ARGUMENTS_WEB_VIEW_ISSUE(102, "The input parameters for 'openInWebView' are invalid."),
     OPEN_EXTERNAL_BROWSER_FAILED(103, "Couldn't open url using the external browser."),
     OPEN_SYSTEM_BROWSER_FAILED(104, "Couldn't open url using the system browser."),
-    OPEN_WEB_VIEW_FAILED(105, "Couldn't open url using the WebView.")
+    OPEN_WEB_VIEW_FAILED(105, "Couldn't open url using the WebView."),
+    CLOSE_FAILED(106, "No browser view to close.")
 }

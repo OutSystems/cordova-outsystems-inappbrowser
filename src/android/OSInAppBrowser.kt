@@ -44,6 +44,9 @@ class OSInAppBrowser: CordovaPlugin() {
             "openInWebView" -> {
                 openInWebView(args, callbackContext)
             }
+            "close" -> {
+                close(callbackContext)
+            }
         }
         return true
     }
@@ -105,6 +108,7 @@ class OSInAppBrowser: CordovaPlugin() {
         try {
             val customTabsRouter = OSIABCustomTabsRouterAdapter(
                 context = cordova.context,
+                lifecycleOwner = cordova.activity,
                 lifecycleScope = cordova.activity.lifecycleScope,
                 options = customTabsOptions,
                 onBrowserPageLoaded = {
@@ -150,10 +154,11 @@ class OSInAppBrowser: CordovaPlugin() {
 
         try {
             val webViewRouter = OSIABWebViewRouterAdapter(
-                cordova.context,
-                cordova.activity.lifecycleScope,
-                webViewOptions,
-                OSIABFlowHelper(),
+                context = cordova.context,
+                lifecycleOwner = cordova.activity,
+                lifecycleScope = cordova.activity.lifecycleScope,
+                options = webViewOptions,
+                flowHelper = OSIABFlowHelper(),
                 onBrowserPageLoaded = {
                     sendSuccess(callbackContext, OSIABEventType.BROWSER_PAGE_LOADED)
                 },
@@ -172,6 +177,20 @@ class OSInAppBrowser: CordovaPlugin() {
         }
         catch (e: Exception) {
             sendError(callbackContext, OSInAppBrowserError.OPEN_WEB_VIEW_FAILED)
+        }
+    }
+
+    /**
+     * Calls the close method of OSIABEngine to close the currently opened view
+     * @param callbackContext CallbackContext the method should return to
+     */
+    private fun close(callbackContext: CallbackContext) {
+        engine?.close { success ->
+            if (success) {
+                sendSuccess(callbackContext, OSIABEventType.SUCCESS)
+            } else {
+                sendError(callbackContext, OSInAppBrowserError.CLOSE_FAILED)
+            }
         }
     }
 
