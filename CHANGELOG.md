@@ -10,6 +10,8 @@ The changes documented here do not include those from the original repository.
 
 ### Features
 - Add `Close` feature for WebView and System Browser on Android (https://outsystemsrd.atlassian.net/browse/RMET-3428).
+- Add error codes and messages on iOS (https://outsystemsrd.atlassian.net/browse/RMET-3465).
+- Format error codes and messages on Android (https://outsystemsrd.atlassian.net/browse/RMET-3466).
 - Add permissions requests and opening file chooser to `OpenInWebView` feature on Android (https://outsystemsrd.atlassian.net/browse/RMET-3534).
 - Add error and loading screens for `OpenInWebView` feature for Android (https://outsystemsrd.atlassian.net/browse/RMET-3492).
 - Add custom error page for `OpenInWebView` feature (https://outsystemsrd.atlassian.net/browse/RMET-3491).
@@ -27,3 +29,4 @@ The changes documented here do not include those from the original repository.
 - Add `OpenInExternalBrowser`'s features on Android (https://outsystemsrd.atlassian.net/browse/RMET-3422).
 - Add `OpenInExternalBrowser` on iOS (https://outsystemsrd.atlassian.net/browse/RMET-3421).
 - [Bridge] Adds cordova bridge, with types (https://outsystemsrd.atlassian.net/browse/RMET-3419).
+- Add content to `README` (https://outsystemsrd.atlassian.net/browse/RMET-3473).

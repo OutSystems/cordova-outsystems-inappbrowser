@@ -5,6 +5,8 @@ import com.outsystems.plugins.inappbrowser.osinappbrowserlib.OSIABEngine
 import com.outsystems.plugins.inappbrowser.osinappbrowserlib.models.OSIABAnimation
 import com.outsystems.plugins.inappbrowser.osinappbrowserlib.models.OSIABCustomTabsOptions
 import androidx.lifecycle.lifecycleScope
+import com.outsystems.plugins.inappbrowser.osinappbrowserlib.OSIABClosable
+import com.outsystems.plugins.inappbrowser.osinappbrowserlib.OSIABRouter
 import com.outsystems.plugins.inappbrowser.osinappbrowserlib.helpers.OSIABFlowHelper
 import com.outsystems.plugins.inappbrowser.osinappbrowserlib.models.OSIABToolbarPosition
 import com.outsystems.plugins.inappbrowser.osinappbrowserlib.models.OSIABViewStyle
@@ -22,6 +24,7 @@ import org.json.JSONObject
 
 class OSInAppBrowser: CordovaPlugin() {
     private var engine: OSIABEngine? = null
+    private var activeRouter: OSIABRouter<Boolean>? = null
     private val gson by lazy { Gson() }
 
     override fun initialize(cordova: CordovaInterface, webView: CordovaWebView) {
@@ -65,7 +68,7 @@ class OSInAppBrowser: CordovaPlugin() {
             if(url.isNullOrEmpty()) throw IllegalArgumentException()
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.INPUT_ARGUMENTS_ISSUE)
+            sendError(callbackContext, OSInAppBrowserError.InputArgumentsIssue(OSInAppBrowserTarget.EXTERNAL_BROWSER))
             return
         }
 
@@ -76,12 +79,12 @@ class OSInAppBrowser: CordovaPlugin() {
                 if (success) {
                     sendSuccess(callbackContext, OSIABEventType.SUCCESS)
                 } else {
-                    sendError(callbackContext, OSInAppBrowserError.OPEN_EXTERNAL_BROWSER_FAILED)
+                    sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.EXTERNAL_BROWSER))
                 }
             }
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.OPEN_EXTERNAL_BROWSER_FAILED)
+            sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.EXTERNAL_BROWSER))
         }
     }
 
@@ -101,34 +104,37 @@ class OSInAppBrowser: CordovaPlugin() {
             customTabsOptions = buildCustomTabsOptions(argumentsDictionary.optString("options", "{}"))
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.INPUT_ARGUMENTS_SYSTEM_BROWSER_ISSUE)
+            sendError(callbackContext, OSInAppBrowserError.InputArgumentsIssue(OSInAppBrowserTarget.SYSTEM_BROWSER))
             return
         }
 
         try {
-            val customTabsRouter = OSIABCustomTabsRouterAdapter(
-                context = cordova.context,
-                lifecycleOwner = cordova.activity,
-                lifecycleScope = cordova.activity.lifecycleScope,
-                options = customTabsOptions,
-                onBrowserPageLoaded = {
-                    sendSuccess(callbackContext, OSIABEventType.BROWSER_PAGE_LOADED)
-                },
-                onBrowserFinished = {
-                    sendSuccess(callbackContext, OSIABEventType.BROWSER_FINISHED)
-                }
-            )
+            close {
+                val customTabsRouter = OSIABCustomTabsRouterAdapter(
+                    context = cordova.context,
+                    lifecycleScope = cordova.activity.lifecycleScope,
+                    options = customTabsOptions,
+                    flowHelper = OSIABFlowHelper(),
+                    onBrowserPageLoaded = {
+                        sendSuccess(callbackContext, OSIABEventType.BROWSER_PAGE_LOADED)
+                    },
+                    onBrowserFinished = {
+                        sendSuccess(callbackContext, OSIABEventType.BROWSER_FINISHED)
+                    }
+                )
 
-            engine?.openCustomTabs(customTabsRouter, url) { success ->
-                if (success) {
-                    sendSuccess(callbackContext, OSIABEventType.SUCCESS)
-                } else {
-                    sendError(callbackContext, OSInAppBrowserError.OPEN_SYSTEM_BROWSER_FAILED)
+                engine?.openCustomTabs(customTabsRouter, url) { success ->
+                    if (success) {
+                        activeRouter = customTabsRouter
+                        sendSuccess(callbackContext, OSIABEventType.SUCCESS)
+                    } else {
+                        sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.SYSTEM_BROWSER))
+                    }
                 }
             }
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.OPEN_SYSTEM_BROWSER_FAILED)
+            sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.SYSTEM_BROWSER))
         }
     }
 
@@ -148,35 +154,37 @@ class OSInAppBrowser: CordovaPlugin() {
             webViewOptions = buildWebViewOptions(argumentsDictionary.optString("options", "{}"))
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.INPUT_ARGUMENTS_WEB_VIEW_ISSUE)
+            sendError(callbackContext, OSInAppBrowserError.InputArgumentsIssue(OSInAppBrowserTarget.WEB_VIEW))
             return
         }
 
         try {
-            val webViewRouter = OSIABWebViewRouterAdapter(
-                context = cordova.context,
-                lifecycleOwner = cordova.activity,
-                lifecycleScope = cordova.activity.lifecycleScope,
-                options = webViewOptions,
-                flowHelper = OSIABFlowHelper(),
-                onBrowserPageLoaded = {
-                    sendSuccess(callbackContext, OSIABEventType.BROWSER_PAGE_LOADED)
-                },
-                onBrowserFinished = {
-                    sendSuccess(callbackContext, OSIABEventType.BROWSER_FINISHED)
-                }
-            )
+            close {
+                val webViewRouter = OSIABWebViewRouterAdapter(
+                    context = cordova.context,
+                    lifecycleScope = cordova.activity.lifecycleScope,
+                    options = webViewOptions,
+                    flowHelper = OSIABFlowHelper(),
+                    onBrowserPageLoaded = {
+                        sendSuccess(callbackContext, OSIABEventType.BROWSER_PAGE_LOADED)
+                    },
+                    onBrowserFinished = {
+                        sendSuccess(callbackContext, OSIABEventType.BROWSER_FINISHED)
+                    }
+                )
 
-            engine?.openWebView(webViewRouter, url) { success ->
-                if (success) {
-                    sendSuccess(callbackContext, OSIABEventType.SUCCESS)
-                } else {
-                    sendError(callbackContext, OSInAppBrowserError.OPEN_WEB_VIEW_FAILED)
+                engine?.openWebView(webViewRouter, url) { success ->
+                    if (success) {
+                        activeRouter = webViewRouter
+                        sendSuccess(callbackContext, OSIABEventType.SUCCESS)
+                    } else {
+                        sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.WEB_VIEW))
+                    }
                 }
             }
         }
         catch (e: Exception) {
-            sendError(callbackContext, OSInAppBrowserError.OPEN_WEB_VIEW_FAILED)
+            sendError(callbackContext, OSInAppBrowserError.OpenFailed(url, OSInAppBrowserTarget.WEB_VIEW))
         }
     }
 
@@ -185,13 +193,24 @@ class OSInAppBrowser: CordovaPlugin() {
      * @param callbackContext CallbackContext the method should return to
      */
     private fun close(callbackContext: CallbackContext) {
-        engine?.close { success ->
+        close { success ->
             if (success) {
                 sendSuccess(callbackContext, OSIABEventType.SUCCESS)
             } else {
-                sendError(callbackContext, OSInAppBrowserError.CLOSE_FAILED)
+                sendError(callbackContext, OSInAppBrowserError.CloseFailed)
             }
         }
+    }
+
+    private fun close(callback: (Boolean) -> Unit) {
+        (activeRouter as? OSIABClosable)?.let { closableRouter ->
+            closableRouter.close { success ->
+                if (success) {
+                    activeRouter = null
+                }
+                callback(success)
+            }
+        } ?: callback(false)
     }
 
     /**
