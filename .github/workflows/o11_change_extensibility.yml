@@ -29,8 +29,8 @@ on:
         type: string
 
 jobs:    
-  update:
-    name: '✍🏻 Change OML Extensibility'
+  update_o11:
+    name: '✍🏻 Change O11 Extensibility'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -45,5 +45,5 @@ jobs:
       run: npm install
 
     - name: Update Extensibility Configurations JSON
-      run: npm run update:tag --plugin=${{ inputs.plugin }} --name='${{ inputs.configName }}' --mabs=${{ inputs.mabsMin }} --environment=${{ inputs.environment }} --repository=${{ github.repository }} --forge=${{ inputs.forgeVersion }} --branch=${{ inputs.tag }} --authentication="${{ secrets.BASICAUTH }}"
-    
+      run: npm run update:tag --plugin=${{ inputs.plugin }} --name='${{ inputs.configName }}' --mabs=${{ inputs.mabsMin }} --environment=${{ inputs.environment }} --repository=${{ github.repository }} --forge=${{ inputs.forgeVersion }} --branch=${{ inputs.tag }} --authentication="${{ secrets.BASICAUTH }}"      
+

@@ -1,0 +1,69 @@
+name: (ODC) Release Plugin
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag: 
+        description: 'The repo version tag'
+        required: true
+        type: string
+      forgeVersion:
+        description: 'The plugin version on the forge'
+        required: true
+        type: string
+      mabsMin:
+        description: 'Minimum MABS version'
+        required: true
+        type: string
+      releaseNotes: 
+        description: 'Release Notes'
+        required: true
+        type: string
+
+jobs:        
+  update_odc:
+    name: '🔌  Update ODC OML Extensibility & Tenant Release'
+    runs-on: ubuntu-latest
+    steps:
+        - name: Trigger Azure Pipeline
+          uses: azure/cli@v2
+          with:
+              azcliversion: latest
+              inlineScript: | 
+                echo "${{ secrets.AZURE_DEVOPS_TOKEN }}" | az devops login --organization https://dev.azure.com/OutSystemsRD
+                PIPELINE_ID=$(az pipelines run --name OutSystems.cordova-outsystems-inappbrowser --organization https://dev.azure.com/OutSystemsRD --project "Mobile Supported Plugins" --branch feat/RMET-3440/add-odc-automations --parameters "pluginURL=https://${{ github.repository }}#${{ inputs.tag }}" "forgeVersion=${{ inputs.forgeVersion }}" "releaseNotes=${{ inputs.releaseNotes }}" "mabs=${{ inputs.mabsMin }}" --output tsv --query id)
+                echo "PIPELINE_ID=$PIPELINE_ID" >> $GITHUB_ENV
+        
+        - name: Wait for build to end
+          uses: azure/cli@v2
+          env:
+            PIPELINE_ID: ${{ env.PIPELINE_ID }}
+          with:
+              azcliversion: latest
+              inlineScript: |
+                echo "${{ secrets.AZURE_DEVOPS_TOKEN }}" | az devops login --organization https://dev.azure.com/OutSystemsRD
+                STATUS="inProgress"
+                while [[ "$STATUS" != "completed" && "$STATUS" != "failed" ]]; do
+                    sleep 30
+                    STATUS=$(az pipelines runs show --organization https://dev.azure.com/OutSystemsRD --project "Mobile Supported Plugins" --id $PIPELINE_ID --output tsv --query status)
+                    echo "Current status: $STATUS"
+                done
+                if [ "$STATUS" == "failed" ]; then
+                    echo "Azure Pipeline failed"
+                    exit 1
+                fi
+
+        - name: Checkout
+          uses: actions/checkout@v4
+          
+        - name: Download OML
+          uses: azure/cli@v2
+          env:
+            PIPELINE_ID: ${{ env.PIPELINE_ID }}
+          with:
+              azcliversion: latest
+              inlineScript: |
+                echo "${{ secrets.AZURE_DEVOPS_TOKEN }}" | az devops login --organization https://dev.azure.com/OutSystemsRD
+                az pipelines runs artifact download --artifact-name v${{ inputs.forgeVersion }}.oml --path $GITHUB_WORKSPACE --run-id $PIPELINE_ID --organization https://dev.azure.com/OutSystemsRD --project "Mobile Supported Plugins"
+                az devops logout
+            

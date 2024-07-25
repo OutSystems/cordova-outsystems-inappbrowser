@@ -1,4 +1,4 @@
-name: (O11) Release Plugin
+name: Release Plugin
 
 on:
   workflow_dispatch:
@@ -7,8 +7,12 @@ on:
         description: 'The repo version tag'
         required: true
         type: string
-      forgeVersion:
-        description: 'The plugin version on the forge'
+      forgeVersionO11:
+        description: 'The plugin version on the O11 forge'
+        required: true
+        type: string
+      forgeVersionODC:
+        description: 'The plugin version on the ODC forge'
         required: true
         type: string
       mabsMin:
@@ -23,17 +27,17 @@ on:
 jobs:    
   change-extensibility:
     uses: ./.github/workflows/o11_change_extensibility.yml
-    name: '✍🏻 Update OML Extensibility'
+    name: '✍🏻 Update O11 OML Extensibility'
     secrets: inherit
     with:
       plugin: BarcodeAutomation
       configName: InAppBrowser Plugin
       tag: ${{ github.event.inputs.tag }}
-      forgeVersion: ${{ github.event.inputs.forgeVersion }}
+      forgeVersion: ${{ github.event.inputs.forgeVersionO11 }}
       mabsMin: ${{ github.event.inputs.mabsMin }}
       environment: enmobile11-dev.outsystemsenterprise.com
 
-  deploy:
+  deploy_o11:
     name: '🔌 Deploy plugin across LifeTime'
     runs-on: ubuntu-latest
     needs: change-extensibility
@@ -64,11 +68,25 @@ jobs:
     - name: Deploying from TST to PROD 
       run: npm run deploy --plugin=BarcodeAutomation --from=Testing --to=Production --lifetime=${{ secrets.LIFETIME }} --authentication='${{ secrets.AUTOMATION_TOKEN }}'
   
+  deploy_odc:
+    name: '🔌  Update ODC OML Extensibility & Tenant Release'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Azure Pipeline
+        uses: Azure/pipelines@v1
+        with: 
+          azure-devops-project-url: 'https://dev.azure.com/OutSystemsRD/Mobile%20Supported%20Plugins'
+          azure-pipeline-name: 'OutSystems.cordova-outsystems-inappbrowser'
+          azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
+          azure-pipeline-variables:  '{"pluginURL": "${{ github.repository }}", "tag": "${{ inputs.tag }}, "mabs": "${{ inputs.mabsMin }}, "forgeVersion": "${{ inputs.forgeVersionODC }}"}'
+  
   release:
     uses: ./.github/workflows/o11_github_release.yml
     name: '🚀 Create Github release'
     secrets: inherit
-    needs: deploy
+    needs: 
+      - deploy_o11
+      - deploy_odc
     with:
       tag: ${{ github.event.inputs.tag }}
       environment: Production
