@@ -18,13 +18,13 @@ pool:
 variables:
   - name: StampsInformationFileName
     value: eng-mobile.StampsInformation.json
-  - name: PLUGIN_APP_KEY
-    value: b0c15cc5-6fbd-4d67-8889-f7dcf0329a28
   - group: MobileConfigCredentials
   - group: ModelAPI_InternalCode
 
 parameters:
   - name: pluginURL
+    type: string
+  - name: pluginKey
     type: string
   - name: forgeVersion
     type: string
@@ -32,6 +32,7 @@ parameters:
     type: string
   - name: releaseNotes
     type: string
+  
 
 stages:
   - stage: UpdateWrapper
@@ -46,9 +47,10 @@ stages:
             parameters:
               secretFileName: $(StampsInformationFileName)
               scriptToRun: UpdateExtensibilityOnPluginWrapper
-              PLUGIN_APP_KEY: $(PLUGIN_APP_KEY)
+              PLUGIN_APP_KEY: ${{ parameters.pluginKey }}
               PLUGIN_UPDATE_URL: ${{ parameters.pluginURL }}
               PLUGIN_UPDATE_VERSION: ${{ parameters.forgeVersion }}
+              mabsMin: ${{ parameters.mabs }}
               workingDirectory: $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline
 
   - stage: Release
@@ -62,7 +64,7 @@ stages:
           - template: build/ci/tag-plugin.yaml@MobilePluginsODCPipeline
             parameters:
               secretFileName: $(StampsInformationFileName)
-              pluginKey: $(PLUGIN_APP_KEY)
+              pluginKey: ${{ parameters.pluginKey }}
               forgeVersion: ${{ parameters.forgeVersion }}
-              releaseNotes: ${{ parameters.releaseNotes }}
+              releaseNotes: ${{ parameters.releaseNotes }}              
               workingDirectory: $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline

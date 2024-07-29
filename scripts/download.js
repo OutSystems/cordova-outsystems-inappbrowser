@@ -7,7 +7,7 @@ const path = require("path");
 
 const DOWNLOAD_FOLDER = "downloads";
 
-async function download(url) {
+async function download(url, fileName) {
 
     const response = await fetch(url, {
         method: 'GET',
@@ -28,14 +28,14 @@ async function download(url) {
 		fs.mkdirSync(DOWNLOAD_FOLDER);
 	}
     
-    const destination = path.resolve(`./${DOWNLOAD_FOLDER}/asset.oap`);
+    const destination = path.resolve(`./${DOWNLOAD_FOLDER}/${fileName}`);
     const fileStream = fs.createWriteStream(destination, { flags: 'wx' });
     await finished(Readable.fromWeb(file).pipe(fileStream));
     console.log(`Finifhed writing to ${destination}`);
 }
 
 
-async function downloadOAP(baseURL, pluginName, inEnv, auth) {
+async function downloadOAP(baseURL, pluginName, inEnv, version, auth) {
     let envKey = await utils.getEnvironmentKey(baseURL, inEnv, auth);
     let pluginKey = await utils.getAppKey(baseURL, pluginName, auth);
 
@@ -46,10 +46,10 @@ async function downloadOAP(baseURL, pluginName, inEnv, auth) {
             Authorization: auth
         }
     })
-
+    console.log(version)
     if(response.ok && response.status == 200){
         let downloadInfo = await response.json()
-        await download(downloadInfo.url)
+        await download(downloadInfo.url, `v${version}.oap`)
     }
 }
 
@@ -57,8 +57,8 @@ let pluginSpaceName = process.env.npm_config_plugin;
 let baseURL = process.env.npm_config_lifetime;
 let auth = process.env.npm_config_authentication;
 let environment = process.env.npm_config_environment;
+let forgeVersion = process.env.npm_config_forge;
+console.log(forgeVersion)
 baseURL = `https://${baseURL}/lifetimeapi/rest/v2`;
 
-
-
-downloadOAP(baseURL, pluginSpaceName, environment, auth)
+downloadOAP(baseURL, pluginSpaceName, environment, forgeVersion, auth)

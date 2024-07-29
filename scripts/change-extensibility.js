@@ -24,7 +24,7 @@ let extensibilityChangeJson = {
         url: `https://${repository}#${branch}`,
     },
     metadata: { 
-        "mabs-min": mabsMin ? mabsMin : "9.0.0",
+        "mabs-min": mabsMin ? mabsMin : "10.0.0",
         name: metadata, 
         version: pluginForgeVersion
     }

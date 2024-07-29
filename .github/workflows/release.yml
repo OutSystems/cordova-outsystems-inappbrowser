@@ -56,32 +56,31 @@ jobs:
     - name: Tag Plugin with Version 
       run: npm run update:version --plugin=BarcodeAutomation --lifetime=${{ secrets.LIFETIME}} --authentication='${{secrets.AUTOMATION_TOKEN}}'
 
-    - name: Wait for tag version to propagate
-      run: sleep 20  # Waits for 10 seconds
+    - name: ⏳ Wait for tag version to propagate
+      run: sleep 20  # Waits for 20 seconds
 
     - name: Deploying from DEV to TST
       run: npm run deploy --plugin=BarcodeAutomation --from=Development --to=Testing --lifetime=${{ secrets.LIFETIME }} --authentication='${{ secrets.AUTOMATION_TOKEN }}'
 
-    - name: Wait for deployment to propagate
-      run: sleep 20  # Waits for 10 seconds
+    - name: ⏳ Wait for deployment to propagate
+      run: sleep 20  # Waits for 20 seconds
     
     - name: Deploying from TST to PROD 
       run: npm run deploy --plugin=BarcodeAutomation --from=Testing --to=Production --lifetime=${{ secrets.LIFETIME }} --authentication='${{ secrets.AUTOMATION_TOKEN }}'
   
   deploy_odc:
     name: '🔌  Update ODC OML Extensibility & Tenant Release'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run Azure Pipeline
-        uses: Azure/pipelines@v1
-        with: 
-          azure-devops-project-url: 'https://dev.azure.com/OutSystemsRD/Mobile%20Supported%20Plugins'
-          azure-pipeline-name: 'OutSystems.cordova-outsystems-inappbrowser'
-          azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
-          azure-pipeline-variables:  '{"pluginURL": "${{ github.repository }}", "tag": "${{ inputs.tag }}, "mabs": "${{ inputs.mabsMin }}, "forgeVersion": "${{ inputs.forgeVersionODC }}"}'
+    uses: ./.github/workflows/odc_release.yml
+    secrets: inherit
+    with:
+      tag: ${{ github.event.inputs.tag }}
+      forgeVersion: ${{ github.event.inputs.forgeVersionODC }}
+      mabsMin: ${{ github.event.inputs.mabsMin }}
+      releaseNotes: ${{ github.event.inputs.releaseNotes }}
+      odcPluginKey: b0c15cc5-6fbd-4d67-8889-f7dcf0329a28
   
   release:
-    uses: ./.github/workflows/o11_github_release.yml
+    uses: ./.github/workflows/github_release.yml
     name: '🚀 Create Github release'
     secrets: inherit
     needs: 
@@ -92,4 +91,8 @@ jobs:
       environment: Production
       plugin: BarcodeAutomation
       notes: ${{ github.event.inputs.releaseNotes }}
+      pipelineID: ${{ needs.deploy_odc.outputs.pipelineID }}
+      forgeVersionO11: ${{ github.event.inputs.forgeVersionO11 }}
+      forgeVersionODC:  ${{ github.event.inputs.forgeVersionODC }}
+
 

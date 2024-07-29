@@ -93,7 +93,7 @@ async function isFinished(base, deployKey, auth) {
             return true
         }
         if(status.DeploymentStatus == 'finished_successful'){
-            console.log("Finished with warnings");
+            console.log("Finished with success");
             return true
         }
         
