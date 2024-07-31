@@ -58,7 +58,9 @@ jobs:
                     STATUS=$(az pipelines runs show --organization https://dev.azure.com/OutSystemsRD --project "Mobile Supported Plugins" --id $PIPELINE_ID --output tsv --query status)
                     echo "Current status: $STATUS"
                 done
-                if [ "$STATUS" == "failed" ]; then
+                RESULT=$(az pipelines runs show --organization https://dev.azure.com/OutSystemsRD --project "Mobile Supported Plugins" --id $PIPELINE_ID --output tsv --query result)
+                echo "Pipeline Result: $RESULT"
+                if [ "$RESULT" == "failed" ]; then
                     echo "Azure Pipeline failed"
                     exit 1
                 fi
