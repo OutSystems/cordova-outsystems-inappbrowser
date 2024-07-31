@@ -77,7 +77,7 @@ jobs:
       forgeVersion: ${{ github.event.inputs.forgeVersionODC }}
       mabsMin: ${{ github.event.inputs.mabsMin }}
       releaseNotes: ${{ github.event.inputs.releaseNotes }}
-      odcPluginKey: b0c15cc5-6fbd-4d67-8889-f7dcf0329a28
+      odcPluginKey: 0076c4e5-80dd-4181-a56b-fab0858c1882
   
   release:
     uses: ./.github/workflows/github_release.yml
@@ -89,7 +89,7 @@ jobs:
     with:
       tag: ${{ github.event.inputs.tag }}
       environment: Production
-      plugin: BarcodeAutomation
+      plugin: InAppBrowserPlugin
       notes: ${{ github.event.inputs.releaseNotes }}
       pipelineID: ${{ needs.deploy_odc.outputs.pipelineID }}
       forgeVersionO11: ${{ github.event.inputs.forgeVersionO11 }}

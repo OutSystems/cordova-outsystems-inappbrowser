@@ -7,7 +7,6 @@ resources:
       endpoint: OutSystems
     - repository: MobilePluginsODCPipeline
       type: github
-      ref: feat/add-publishing-process
       name: OutSystems/MobilePluginsODCPipeline
       endpoint: OutSystems
 
