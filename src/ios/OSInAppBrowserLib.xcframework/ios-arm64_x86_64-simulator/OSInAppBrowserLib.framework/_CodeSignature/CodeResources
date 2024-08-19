@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PfEi//cqIzcDKk8Z449fDDgimgM=
+		vq96QGu3H6zjIpGCrZvKK2/PhFw=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		h/WOLllyT/ChfQB+sfvk/PKXUX0=
+		APKlT0exB+3wIwLY/XztvBMyarI=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JbJ7oOOsLITf+x5QM2b8vQXhNNg=
+		K/Pgnv7PvAzo+0QlRPw7Ma6V1zA=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0P2chbSAaGK437/8wzZsV5S/S4w=
+		e6XP2eoSKYT75Sq7eVITrh1veKo=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JbJ7oOOsLITf+x5QM2b8vQXhNNg=
+		K/Pgnv7PvAzo+0QlRPw7Ma6V1zA=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zVYpnRjbUzSBLROIAJqVdqGGw8g=
+		YcZhGH/Gb15e3TwdhFCSvwoGDnQ=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		h/WOLllyT/ChfQB+sfvk/PKXUX0=
+		APKlT0exB+3wIwLY/XztvBMyarI=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YOW0XjTWYarEUjyTHReBOXt1ook=
+		Pcnsu1se1Cxnc7sbMoRqpU76ytg=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		7G65nigj/nIDuBMB/25w01r40u4=
+		E/tWfZJHXy0o1DPYqVIHsChjMrQ=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YOW0XjTWYarEUjyTHReBOXt1ook=
+		Pcnsu1se1Cxnc7sbMoRqpU76ytg=
 		</data>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pSOBQOqw8dt1u69PhzLFTThCahY=
+		anP0+P1c6L6UWxroYAQf75IXv60=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaFn897tqnIMln8WgdmHoEYnkkIaYRZNcZT+4p/o+T0=
+			upNYfUJf9TIHM2DHXRMGKT3FyDfbbRUZKN2Yw24t+b4=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v1lATR2/kPDGW5R8RMwYv7DyrRti0FeAtZI3FV9morw=
+			6fP29V4SBZ0OK4z8yxDSMhfUE8K1jlR/cOM/HUbOuCo=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6sptmBvZLkdENQCuxC06b+8Q6rULRVvzsz6g2YAThU=
+			0wopP3481/3XJvun2kjisPjJbqRfO2BAdQRAQmTsevg=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v1lATR2/kPDGW5R8RMwYv7DyrRti0FeAtZI3FV9morw=
+			6fP29V4SBZ0OK4z8yxDSMhfUE8K1jlR/cOM/HUbOuCo=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3irktVT6vdDwwe1++Ceb+fdqlere5ZS6UsyQGFJ1nE=
+			AqgJKOUiBQ8JtkcVXcCki4E8rq3NRBl4oXewwcMApVE=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaFn897tqnIMln8WgdmHoEYnkkIaYRZNcZT+4p/o+T0=
+			upNYfUJf9TIHM2DHXRMGKT3FyDfbbRUZKN2Yw24t+b4=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcbUAOiR+mlyNjnAHKIT2wpxx9i2fUTZwW0DUcKX1Ls=
+			oH5aQjlM+SfYwUF4ytKvDDLzuz83y4RGXMzRYn6fDUQ=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tn/LPTAAFRTgsSKgVmRh8NXL97BYZy8yOsqaNsEUxIc=
+			JqTFMf/5SJITPkYaL3rXhBpix2l8VxXiQuV+sdWewqI=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcbUAOiR+mlyNjnAHKIT2wpxx9i2fUTZwW0DUcKX1Ls=
+			oH5aQjlM+SfYwUF4ytKvDDLzuz83y4RGXMzRYn6fDUQ=
 			</data>
 		</dict>
 		<key>Modules/OSInAppBrowserLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRIr0BhSbP1XLPV56/Ogp3+yx0X6cqAOY8DzeytYR8E=
+			tbCCwe2jvOXfquM4FXmEv8G2aF7jaPCl8XqS3kcu/o4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

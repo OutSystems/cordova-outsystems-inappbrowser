@@ -1108,6 +1108,20 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSInAppBrowserLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSInAppBrowserLib"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2240,6 +2254,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "OSInAppBrowserLib"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -3199,198 +3220,198 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 3946,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 3980,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4013,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4053,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4107,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "StringLiteral",
       "offset": 4148,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4258,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4292,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4331,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4373,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4421,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 4473,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "StringLiteral",
       "offset": 4936,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 19,
       "value": "\"OSInAppBrowserLib.OSIABWebViewOptions\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABWebViewOptions.swift",
       "kind": "Array",
       "offset": 5750,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4192,
+      "offset": 4200,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4509,
+      "offset": 4517,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4542,
+      "offset": 4550,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4576,
+      "offset": 4584,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4683,
+      "offset": 4691,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4717,
+      "offset": 4725,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4748,
+      "offset": 4756,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5199,
+      "offset": 5207,
       "length": 20,
       "value": "\"https:\/\/outsystems\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5222,
+      "offset": 5230,
       "length": 24,
       "value": "\"https:\/\/outsystems.com\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5616,
+      "offset": 5624,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5669,
+      "offset": 5677,
       "length": 41,
       "value": "\"Close Button count: \""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5709,
+      "offset": 5717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5774,
       "length": 22,
       "value": "\"Default - Light Mode\""
     },
@@ -3423,9 +3444,9 @@
       "value": "\"Default - Light Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5827,
+      "offset": 5835,
       "length": 21,
       "value": "\"Default - Dark Mode\""
     },
@@ -3458,16 +3479,16 @@
       "value": "\"Default - Dark Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5924,
+      "offset": 5932,
       "length": 20,
       "value": "\"Error - Light Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5978,
+      "offset": 5986,
       "length": 4,
       "value": "true"
     },
@@ -3507,16 +3528,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6033,
+      "offset": 6041,
       "length": 26,
       "value": "\"Custom Close Button Text\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6110,
+      "offset": 6118,
       "length": 6,
       "value": "\"Done\""
     },
@@ -3556,16 +3577,16 @@
       "value": "\"Done\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6171,
       "length": 12,
       "value": "\"No Toolbar\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6222,
+      "offset": 6230,
       "length": 5,
       "value": "false"
     },
@@ -3605,23 +3626,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6271,
+      "offset": 6279,
       "length": 34,
       "value": "\"No URL and No Navigation Buttons\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6348,
+      "offset": 6356,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6387,
+      "offset": 6395,
       "length": 5,
       "value": "false"
     },
@@ -3668,30 +3689,30 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6411,
+      "offset": 6419,
       "length": 49,
       "value": "\"No URL, No Navigation Buttons and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6503,
+      "offset": 6511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6542,
+      "offset": 6550,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6570,
+      "offset": 6578,
       "length": 4,
       "value": "true"
     },
@@ -3745,16 +3766,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6593,
+      "offset": 6601,
       "length": 8,
       "value": "\"No URL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6644,
+      "offset": 6652,
       "length": 5,
       "value": "false"
     },
@@ -3794,23 +3815,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6668,
+      "offset": 6676,
       "length": 26,
       "value": "\"No URL and Left-To-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6737,
+      "offset": 6745,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6766,
+      "offset": 6774,
       "length": 4,
       "value": "true"
     },
@@ -3857,23 +3878,23 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6789,
+      "offset": 6797,
       "length": 50,
       "value": "\"No URL, Bottom Toolbar and No Navigation Buttons\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6882,
+      "offset": 6890,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6955,
+      "offset": 6963,
       "length": 5,
       "value": "false"
     },
@@ -3920,30 +3941,30 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6979,
+      "offset": 6987,
       "length": 65,
       "value": "\"No URL, Bottom Toolbar, No Navigation Buttons and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7087,
+      "offset": 7095,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7160,
+      "offset": 7168,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7189,
+      "offset": 7197,
       "length": 4,
       "value": "true"
     },
@@ -3997,16 +4018,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7212,
+      "offset": 7220,
       "length": 27,
       "value": "\"No URL and Bottom Toolbar\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7282,
+      "offset": 7290,
       "length": 5,
       "value": "false"
     },
@@ -4046,23 +4067,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7340,
+      "offset": 7348,
       "length": 42,
       "value": "\"No URL, Bottom Toolbar and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7425,
+      "offset": 7433,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7487,
+      "offset": 7495,
       "length": 4,
       "value": "true"
     },
@@ -4109,16 +4130,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7510,
+      "offset": 7518,
       "length": 23,
       "value": "\"No Navigation Buttons\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7590,
+      "offset": 7598,
       "length": 5,
       "value": "false"
     },
@@ -4158,23 +4179,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7614,
+      "offset": 7622,
       "length": 41,
       "value": "\"No Navigation Buttons and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7712,
+      "offset": 7720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7740,
+      "offset": 7748,
       "length": 4,
       "value": "true"
     },
@@ -4221,16 +4242,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7763,
+      "offset": 7771,
       "length": 15,
       "value": "\"Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7825,
+      "offset": 7833,
       "length": 4,
       "value": "true"
     },
@@ -4270,16 +4291,16 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 7848,
+      "offset": 7856,
       "length": 42,
       "value": "\"Bottom Toolbar and No Navigation Buttons\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7982,
+      "offset": 7990,
       "length": 5,
       "value": "false"
     },
@@ -4319,23 +4340,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8006,
+      "offset": 8014,
       "length": 57,
       "value": "\"Bottom Toolbar, No Navigation Buttons and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8154,
+      "offset": 8162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8182,
+      "offset": 8190,
       "length": 4,
       "value": "true"
     },
@@ -4382,9 +4403,9 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8205,
+      "offset": 8213,
       "length": 16,
       "value": "\"Bottom Toolbar\""
     },
@@ -4417,16 +4438,16 @@
       "value": "\"Bottom Toolbar\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "StringLiteral",
-      "offset": 8298,
+      "offset": 8306,
       "length": 34,
       "value": "\"Bottom Toolbar and Left-to-Right\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8413,
+      "offset": 8421,
       "length": 4,
       "value": "true"
     },
@@ -4466,91 +4487,91 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 3825,
       "length": 18,
       "value": "\"chevron.backward\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 4066,
       "length": 17,
       "value": "\"chevron.forward\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "IntegerLiteral",
       "offset": 4414,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 4455,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 4698,
       "length": 20,
       "value": "\"No Button Pressed.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 4885,
       "length": 13,
       "value": "\"URL Address\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 4948,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 4988,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 5032,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 5439,
       "length": 22,
       "value": "\"Back Button Pressed.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 5615,
       "length": 25,
       "value": "\"Forward Button Pressed.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "FloatLiteral",
       "offset": 6000,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6125,
       "length": 22,
@@ -4585,7 +4606,7 @@
       "value": "\"Default - Light Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6193,
       "length": 21,
@@ -4620,14 +4641,14 @@
       "value": "\"Default - Dark Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6297,
       "length": 34,
       "value": "\"Show Navigation Buttons Disabled\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 6386,
       "length": 5,
@@ -4669,14 +4690,14 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6405,
       "length": 21,
       "value": "\"Back Button Enabled\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 6477,
       "length": 4,
@@ -4718,14 +4739,14 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6495,
       "length": 24,
       "value": "\"Forward Button Enabled\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 6573,
       "length": 4,
@@ -4767,21 +4788,21 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "StringLiteral",
       "offset": 6591,
       "length": 22,
       "value": "\"Both Buttons Enabled\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 6664,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABNavigationView.swift",
       "kind": "BooleanLiteral",
       "offset": 6692,
       "length": 4,
@@ -4830,527 +4851,751 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 5,
       "value": "\"TOP\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 5,
       "value": "\"TOP\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABToolbarPosition.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/OSIABCacheManager.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/OSIABCacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2468,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/OSIABCacheManager.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/OSIABCacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2624,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1448,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1482,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1589,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1623,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewUIModel.swift",
       "kind": "StringLiteral",
       "offset": 1664,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "Array",
+      "offset": 760,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 869,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 24,
+      "value": "\"https:\/\/outsystems.com\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 2841,
+      "length": 22,
+      "value": "\"Default - Light Mode\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"OSInAppBrowserLib\/OSIABWebView13WrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "82"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf0_.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 22,
+      "value": "\"Default - Light Mode\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 2918,
+      "length": 21,
+      "value": "\"Default - Dark Mode\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf2_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"OSInAppBrowserLib\/OSIABWebView13WrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf2_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "86"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf2_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf2_.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 21,
+      "value": "\"Default - Dark Mode\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
+      "length": 24,
+      "value": "\"Bottom Toolbar Defined\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf4_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"OSInAppBrowserLib\/OSIABWebView13WrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf4_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf4_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf4_.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 24,
+      "value": "\"Bottom Toolbar Defined\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 3134,
+      "length": 25,
+      "value": "\"Error View - Light mode\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 3204,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf6_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"OSInAppBrowserLib\/OSIABWebView13WrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf6_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "95"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf6_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf6_.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 25,
+      "value": "\"Error View - Light mode\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf6_.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 3240,
+      "length": 24,
+      "value": "\"Error View - Dark mode\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebView13WrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 51,
+      "value": "\"OSInAppBrowserLib\/OSIABWebView13WrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf8_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf8_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 24,
+      "value": "\"Error View - Dark mode\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_4FBE49A5EE2611C644E8ACFFE5F7ACBELl7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 12,
       "value": "\"FORM_SHEET\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 12,
       "value": "\"PAGE_SHEET\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 12,
       "value": "\"FORM_SHEET\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABViewStyle.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 12,
       "value": "\"PAGE_SHEET\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABApplicationRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABApplicationRouterAdapter.swift",
       "kind": "Dictionary",
       "offset": 611,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABApplicationRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABApplicationRouterAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 1626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 8,
       "value": "\"CANCEL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 7,
       "value": "\"CLOSE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 6,
       "value": "\"DONE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 8,
       "value": "\"CANCEL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 7,
       "value": "\"CLOSE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABDismissStyle.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 6,
       "value": "\"DONE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
       "kind": "Array",
       "offset": 1362,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1411,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABWebViewConfigurationModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1518,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 154,
       "length": 16,
       "value": "\"COVER_VERTICAL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 16,
       "value": "\"CROSS_DISSOLVE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 17,
       "value": "\"FLIP_HORIZONTAL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 154,
       "length": 16,
       "value": "\"COVER_VERTICAL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 16,
       "value": "\"CROSS_DISSOLVE\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/OSIABAnimationEffect.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 17,
       "value": "\"FLIP_HORIZONTAL\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 942,
+      "offset": 957,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1146,
+      "offset": 1161,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1383,
+      "offset": 1398,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1516,
+      "offset": 1531,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1708,
+      "offset": 1723,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2393,
+      "offset": 2466,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5132,
+      "offset": 6408,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 81,
+      "offset": 96,
       "length": 17,
       "value": "\"OSInAppBrowserLib.OSIABWebViewModel\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5431,
+      "offset": 6707,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5726,
+      "offset": 7002,
       "length": 12,
       "value": "\"itms-appss\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5740,
+      "offset": 7016,
       "length": 11,
       "value": "\"itms-apps\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5753,
+      "offset": 7029,
       "length": 5,
       "value": "\"tel\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5760,
+      "offset": 7036,
       "length": 5,
       "value": "\"sms\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5767,
+      "offset": 7043,
       "length": 8,
       "value": "\"mailto\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5777,
+      "offset": 7053,
       "length": 5,
       "value": "\"geo\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5919,
+      "offset": 7195,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6465,
+      "offset": 7741,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6662,
+      "offset": 7938,
       "length": 19,
       "value": "\"didFailNavigation\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6879,
+      "offset": 8155,
       "length": 30,
       "value": "\"didFailProvisionalNavigation\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7059,
+      "offset": 8335,
       "length": 58,
       "value": "\"webView: \""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7084,
+      "offset": 8360,
       "length": 1,
       "value": "\" - \""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7116,
+      "offset": 8392,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8065,
+      "offset": 9341,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8215,
+      "offset": 9491,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8422,
+      "offset": 9698,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8976,
+      "offset": 10252,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9405,
+      "offset": 10681,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9557,
+      "offset": 10833,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9613,
+      "offset": 10889,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10114,
+      "offset": 11390,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10265,
+      "offset": 11541,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/OSIABWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10321,
+      "offset": 11597,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1043,
+      "offset": 1041,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1064,
       "length": 33,
       "value": "\"Couldn't load the page content.\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1279,
       "length": 17,
       "value": "\"arrow.clockwise\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1327,
       "length": 13,
       "value": "\"Reload page\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1576,
+      "offset": 1574,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1608,
+      "offset": 1606,
       "length": 23,
       "value": "\"Default - Error Light\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1677,
       "length": 9,
       "value": "\"Preview\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABErrorView.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1738,
       "length": 16,
       "value": "\"Clicked reload\""
     },
@@ -5392,299 +5637,313 @@
     {
       "filePath": "@__swiftmacro_17OSInAppBrowserLib030_F8831792EA90CA06D0338DD26E9C6J1CLl7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 637,
       "length": 16,
       "value": "\"Clicked reload\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "Array",
-      "offset": 648,
+      "offset": 676,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1072,
       "length": 24,
       "value": "\"https:\/\/outsystems.com\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "StringLiteral",
-      "offset": 1936,
+      "offset": 1988,
       "length": 22,
       "value": "\"Default - Light Mode\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf0_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 45,
-      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapper.swift\""
+      "length": 49,
+      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapperView.swift\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf0_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 2,
-      "value": "58"
+      "value": "60"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf0_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf0_.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf0_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf0_.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 470,
       "length": 22,
       "value": "\"Default - Light Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "StringLiteral",
-      "offset": 2007,
+      "offset": 2087,
       "length": 21,
       "value": "\"Default - Dark Mode\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf2_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf2_.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 45,
-      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapper.swift\""
+      "length": 49,
+      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapperView.swift\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf2_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf2_.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 2,
-      "value": "62"
+      "value": "65"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf2_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf2_.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf2_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf2_.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 470,
       "length": 21,
       "value": "\"Default - Dark Mode\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "StringLiteral",
-      "offset": 2114,
+      "offset": 2222,
       "length": 24,
       "value": "\"Bottom Toolbar Defined\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf4_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf4_.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 45,
-      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapper.swift\""
+      "length": 49,
+      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapperView.swift\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf4_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf4_.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
-      "length": 2,
-      "value": "67"
-    },
-    {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf4_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 353,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf4_.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 24,
-      "value": "\"Bottom Toolbar Defined\""
-    },
-    {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 2211,
-      "length": 25,
-      "value": "\"Error View - Light mode\""
-    },
-    {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 2275,
-      "length": 21,
-      "value": "\"https:\/\/outsystems\/\""
-    },
-    {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf6_.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
-      "length": 45,
-      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapper.swift\""
-    },
-    {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf6_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 2,
       "value": "71"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf6_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf4_.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf6_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf4_.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 470,
+      "length": 24,
+      "value": "\"Bottom Toolbar Defined\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 2347,
       "length": 25,
       "value": "\"Error View - Light mode\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf6_.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 2415,
       "length": 21,
       "value": "\"https:\/\/outsystems\/\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 2311,
-      "length": 24,
-      "value": "\"Error View - Dark mode\""
-    },
-    {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 2374,
-      "length": 21,
-      "value": "\"https:\/\/outsystems\/\""
-    },
-    {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf8_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf6_.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 45,
-      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapper.swift\""
+      "length": 49,
+      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapperView.swift\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf8_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf6_.swift",
       "kind": "IntegerLiteral",
-      "offset": 321,
+      "offset": 325,
       "length": 2,
-      "value": "75"
+      "value": "76"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf8_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf6_.swift",
       "kind": "IntegerLiteral",
-      "offset": 353,
+      "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf8_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf6_.swift",
       "kind": "StringLiteral",
-      "offset": 466,
-      "length": 24,
-      "value": "\"Error View - Dark mode\""
+      "offset": 470,
+      "length": 25,
+      "value": "\"Error View - Light mode\""
     },
     {
-      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_6F3C24D83ED9199BBD066778CCE331F9Ll7PreviewfMf8_.swift",
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf6_.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 546,
       "length": 21,
       "value": "\"https:\/\/outsystems\/\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 24,
+      "value": "\"Error View - Dark mode\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/WebView\/Views\/OSIABWebViewWrapperView.swift",
+      "kind": "StringLiteral",
+      "offset": 2542,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 49,
+      "value": "\"OSInAppBrowserLib\/OSIABWebViewWrapperView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf8_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf8_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 24,
+      "value": "\"Error View - Dark mode\""
+    },
+    {
+      "filePath": "@__swiftmacro_17OSInAppBrowserLib33_3651F6C88099860A17FC9CD41761DA04Ll7PreviewfMf8_.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 21,
+      "value": "\"https:\/\/outsystems\/\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2005,
+      "offset": 1955,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 25,
       "value": "\"OSInAppBrowserLib.OSIABWebViewRouterAdapter\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 3917,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 3764,
+      "offset": 4078,
       "length": 22,
       "value": "\"OSInAppBrowserLib.OSIABWebViewController\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 3764,
+      "offset": 4078,
       "length": 22,
       "value": "\"OSInAppBrowserLib.OSIABWebViewController\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 5215,
+      "length": 24,
+      "value": "\"OSInAppBrowserLib.OSIABWebView13Controller\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABWebViewRouterAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 5215,
+      "length": 24,
+      "value": "\"OSInAppBrowserLib.OSIABWebView13Controller\""
+    },
+    {
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 1398,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 1438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/Models\/Options\/OSIABSystemBrowserOptions.swift",
       "kind": "StringLiteral",
       "offset": 186,
       "length": 25,
       "value": "\"OSInAppBrowserLib.OSIABSystemBrowserOptions\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 38,
       "value": "\"OSInAppBrowserLib.OSIABSafariViewControllerRouterAdapter\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
       "kind": "StringLiteral",
       "offset": 2943,
       "length": 25,
       "value": "\"OSInAppBrowserLib.OSIABSafariViewController\""
     },
     {
-      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
+      "filePath": "\/Users\/tac\/Documents\/repositories\/iOS\/OSInAppBrowserLib-iOS\/OSInAppBrowserLib\/RouterAdapters\/OSIABSafariViewControllerRouterAdapter.swift",
       "kind": "StringLiteral",
       "offset": 2943,
       "length": 25,
