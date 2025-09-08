@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## 1.6.0
+
+### Features
+
+- Android: Allow for photo and video capturing, and filter for media type for file uploads (`onShowFileChooser`) [RMET-4466](https://outsystemsrd.atlassian.net/browse/RMET-4466)
+
 ## 1.5.0
 
 ### Features
