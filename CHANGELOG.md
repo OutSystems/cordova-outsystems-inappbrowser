@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## [Unreleased]
+
+### Fixes
+
+- iOS: Fixed an issue that was preventing iframe content from loading in the OpenInWebView option. [RMET-4517](https://outsystemsrd.atlassian.net/browse/RMET-4517).
+- iOS: Enable WebKit inspector for debugging on iOS 16.4+ in DEBUG builds.
+
 ## 1.6.1
 
 ### Fixes
