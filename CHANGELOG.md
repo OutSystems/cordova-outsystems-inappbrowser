@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## 1.6.3
+
+### Fixes
+
+- android: Do not show error when web page has a resource that is unresolvable [RMET-4937](https://outsystemsrd.atlassian.net/browse/RMET-4937)
+
 ## 1.6.2
 
 ### Fixes
