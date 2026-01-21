@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## 1.7.0
+
+### Fixes
+
+- Android: separate local storage between WebView processes. [RMET-4918](https://outsystemsrd.atlassian.net/browse/RMET-4918)
+
+
 ## 1.6.3
 
 ### Fixes
