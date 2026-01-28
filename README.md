@@ -16,6 +16,13 @@ It's also possible to install via the repo's URL directly.
 cordova plugin add https://github.com/OutSystems/cordova-outsystems-inappbrowser
 ```
 
+#### LocalStorage Isolation
+The `openInWebView` option provides isolation for `localStorage` and `cookies` to ensure that content loaded in the InAppBrowser does not interfere with the main application's storage.
+
+- **iOS**: Storage is isolated by default.
+- **Android (API 28+)**: Storage is isolated by running the InAppBrowser in a separate process (`:OSInAppBrowser`) with a dedicated data directory suffix.
+- **Android (API < 28)**: Storage is **shared** with the main application due to platform limitations. On these devices, if the URL opened has the same origin as the main app, they will share the same `localStorage`.
+
 ## Supported Platforms
 
 - iOS
