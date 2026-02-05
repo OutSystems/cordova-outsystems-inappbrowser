@@ -4,9 +4,11 @@ This folder contains .json files for configuring build actions to use in a plugi
 
 ## Contents
 
-The file cleartextTrafficPermittedAndroid.json contains one build action:
+The file allowHttpTraffic.json contains one build action:
 
-- Android specific. Allows configuring the `cleartextTrafficPermitted` in the `network_security_config.xml`. This is used to block (`false`, which is the default) or allow (`true`) HTTP traffic in the Android app.
+- Android - Allows configuring the `cleartextTrafficPermitted` in the `network_security_config.xml`. This is used to block (`false`, which is the default) or allow (`true`) HTTP traffic in the Android app.
+
+- iOS – Allows configuring `NSAllowsArbitraryLoadsInWebContent` in the app’s `Info.plist`. This controls whether HTTP traffic is blocked (`false`, default) or allowed (`true`) inside in-app WebViews.
 
 
 ## Outsystems' Usage
