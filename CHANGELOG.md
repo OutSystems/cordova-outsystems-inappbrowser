@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## 1.6.4
+
+### Fixes
+
+- iOS: Fixed an issue where `window.open()` calls and links with `target="_blank"` were not handled in the OpenInWebView option, causing navigation to fail. [RMET-5110](https://outsystemsrd.atlassian.net/browse/RMET-5110)
+
 ## 1.6.3
 
 ### Fixes
