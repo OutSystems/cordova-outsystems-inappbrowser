@@ -6,12 +6,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
-## 1.7.0
+## 2.0.0
 
 ### Fixes
 
-- Android: separate local storage between WebView processes. [RMET-4918](https://outsystemsrd.atlassian.net/browse/RMET-4918)
+- Android: isolate WebView local storage and cookies from the main app by default on Android 28+. [RMET-4918](https://outsystemsrd.atlassian.net/browse/RMET-4918)
 
+### BREAKING CHANGES
+
+- Android: `openInWebView` now isolates WebView storage by default on Android 28+. Apps that need to share the main app WebView's `localStorage` or cookies must set `android.isIsolated` to `false`.
+
+## 1.6.5
+
+### Fixes
+
+- android: Remove extra requests for checking if a URL hosts a PDF with `openInWebView`. This makes sure that for non-PDF urls, no extra request to the webpage/server is done [RMET-5141](https://outsystemsrd.atlassian.net/browse/RMET-5141) / [RPM-6744](https://outsystemsrd.atlassian.net/browse/RPM-6744).
+
+## 1.6.4
+
+### Fixes
+
+- iOS: Fixed an issue where `window.open()` calls and links with `target="_blank"` were not handled in the OpenInWebView option, causing navigation to fail. [RMET-5110](https://outsystemsrd.atlassian.net/browse/RMET-5110)
 
 ## 1.6.3
 

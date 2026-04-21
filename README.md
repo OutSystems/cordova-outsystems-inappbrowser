@@ -20,8 +20,14 @@ cordova plugin add https://github.com/OutSystems/cordova-outsystems-inappbrowser
 The `openInWebView` option provides isolation for `localStorage` and `cookies` to ensure that content loaded in the InAppBrowser does not interfere with the main application's storage.
 
 - **iOS**: Storage is isolated by default.
-- **Android (API 28+)**: Storage is isolated by running the InAppBrowser in a separate process (`:OSInAppBrowser`) with a dedicated data directory suffix.
+- **Android (API 28+)**: Storage is isolated by default by running the InAppBrowser in a separate process (`:OSInAppBrowser`) with a dedicated data directory suffix.
 - **Android (API < 28)**: Storage is **shared** with the main application due to platform limitations. On these devices, if the URL opened has the same origin as the main app, they will share the same `localStorage`.
+
+If your use case requires sharing `localStorage` or cookies between the main app and the InAppBrowser on Android, you can opt out of isolation by setting `isIsolated: false` in the `android` options.
+
+> Disabling isolation reduces the security of your app by allowing potentially untrusted web content to access your application's private storage. Use this only if necessary.
+
+> **Breaking Change (Android)**: Apps upgrading to this version will lose any existing `localStorage` or cookies previously stored by the InAppBrowser on Android 28+ on the first run. This is because the WebView now runs in a separate process with its own data directory. Users may need to re-authenticate with websites that relied on persisted session data.
 
 ## Supported Platforms
 
@@ -111,6 +117,7 @@ The action is composed of the following parameters:
 		- **allowZoom**: A boolean that, if set to true, shows the Android browser's zoom controls.
 		- **hardwareBack**: A boolean that, if set to true, uses the hardware back button to navigate backwards through the Web View's history. If there is no previous page, the Web View will close.
 		- **pauseMedia**: A boolean that, if set to true, makes the Web View pause/resume with the app to stop background audio. Note that this may be required to avoid Google Play issues like YouTube video playback while the application is in the background.
+		- **isIsolated**: A boolean that, if set to true, runs the InAppBrowser in an isolated WebView process on Android 28+. Defaults to true.
 	- **iOS**: iOS-specific Web View options.
 		- **allowOverScroll**:  A boolean that, if set to true, turns on the Web View bounce property.
 		- **enableViewportScale**: A boolean that, if set to true, prevents viewport scaling through a meta tag.
