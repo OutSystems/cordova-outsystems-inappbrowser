@@ -44,7 +44,8 @@ var CallbackEventType = /* @__PURE__ */ ((CallbackEventType2) => {
 const DefaultAndroidWebViewOptions = {
   allowZoom: false,
   hardwareBack: true,
-  pauseMedia: true
+  pauseMedia: true,
+  isIsolated: true
 };
 const DefaultiOSWebViewOptions = {
   allowOverScroll: true,

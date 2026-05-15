@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## 2.0.0
+
+### Fixes
+
+- Android: isolate WebView local storage and cookies from the main app by default on Android 28+. [RMET-4918](https://outsystemsrd.atlassian.net/browse/RMET-4918)
+
+### BREAKING CHANGES
+
+- Android: `openInWebView` now isolates WebView storage by default on Android 28+. Apps that need to share the main app WebView's `localStorage` or cookies must set `android.isIsolated` to `false`.
+
 ## 1.6.5
 
 ### Fixes

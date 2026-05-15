@@ -268,7 +268,8 @@ class OSInAppBrowser: CordovaPlugin() {
                 it.android.allowZoom ?: true,
                 it.android.hardwareBack ?: true,
                 it.android.pauseMedia ?: true,
-                it.customWebViewUserAgent
+                it.customWebViewUserAgent,
+                it.android.isIsolated ?: true
             )
         }
     }

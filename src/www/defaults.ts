@@ -3,7 +3,8 @@ import { AndroidAnimation, AndroidSystemBrowserOptions, AndroidViewStyle, Androi
 export const DefaultAndroidWebViewOptions: AndroidWebViewOptions = {
     allowZoom: false,
     hardwareBack: true,
-    pauseMedia: true
+    pauseMedia: true,
+    isIsolated: true
 }
 
 export const DefaultiOSWebViewOptions: iOSWebViewOptions = {

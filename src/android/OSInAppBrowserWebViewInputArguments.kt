@@ -20,5 +20,6 @@ data class OSInAppBrowserWebViewInputArguments(
 data class OSInAppBrowserWebViewAndroidOptions(
     @SerializedName("allowZoom") val allowZoom: Boolean?,
     @SerializedName("hardwareBack") val hardwareBack: Boolean?,
-    @SerializedName("pauseMedia") val pauseMedia: Boolean?
+    @SerializedName("pauseMedia") val pauseMedia: Boolean?,
+    @SerializedName("isIsolated") val isIsolated: Boolean?
 )

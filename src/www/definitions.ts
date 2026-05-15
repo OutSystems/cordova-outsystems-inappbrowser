@@ -72,6 +72,7 @@ export interface AndroidWebViewOptions {
   allowZoom: boolean;
   hardwareBack: boolean;
   pauseMedia: boolean;
+  isIsolated?: boolean;
 }
 
 export enum DismissStyle {
