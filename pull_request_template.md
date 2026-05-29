@@ -25,7 +25,6 @@
 
 ## Checklist
 <!--- Go over all the following items and put an `x` in all the boxes that apply -->
-- [ ] Pull request title follows the format `RMET-XXXX <title>`
 - [ ] Code follows code style of this project
 - [ ] Using [conventional commits](https://www.conventionalcommits.org/)
 - [ ] Changes require an update to the documentation
