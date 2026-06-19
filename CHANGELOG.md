@@ -1,3 +1,5 @@
+## [2.0.1](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.0.0...2.0.1) (2026-06-19)
+
 ## 2.0.0
 
 ### Fixes
