@@ -23,7 +23,7 @@
         <source-file src="src/android/OSInAppBrowserWebViewInputArguments.kt" target-dir="app/src/main/kotlin/com/outsystems/plugins/inappbrowser/osinappbrowser"/>
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
     </platform>
-    <platform name="ios">
+    <platform name="ios" package="swift">
         <config-file parent="/*" target="config.xml">
             <feature name="OSInAppBrowser">
                 <param name="ios-package" value="OSInAppBrowser"/>
@@ -38,7 +38,7 @@
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="OSInAppBrowserLib" spec="2.3.2"/>
+                <pod name="OSInAppBrowserLib" spec="2.3.2" nospm="true"/>
             </pods>
         </podspec>
     </platform>
