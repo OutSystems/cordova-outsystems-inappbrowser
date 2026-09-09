@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.0.3...2.1.0) (2026-09-09)
+
+
+### Features
+
+* **ios:** add Swift Package Manager support ([#77](https://github.com/OutSystems/cordova-outsystems-inappbrowser/issues/77)) ([0b7aef8](https://github.com/OutSystems/cordova-outsystems-inappbrowser/commit/0b7aef81a9106dbae82c8e0a2c148d8e887f7174))
+
 ## [2.0.3](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.0.2...2.0.3) (2026-08-07)
 
 
