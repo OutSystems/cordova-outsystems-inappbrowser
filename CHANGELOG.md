@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.1.0...2.1.1) (2026-09-18)
+
+
+### Bug Fixes
+
+* **android:** preserve accept MIME types in WebView file chooser ([#78](https://github.com/OutSystems/cordova-outsystems-inappbrowser/issues/78)) ([aa323c1](https://github.com/OutSystems/cordova-outsystems-inappbrowser/commit/aa323c1d404a0662f717a2efb4aa892c13a97acf))
+
 # [2.1.0](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.0.3...2.1.0) (2026-09-09)
 
 
