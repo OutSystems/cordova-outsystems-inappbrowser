@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.1.1...2.1.2) (2026-10-07)
+
+
+### Bug Fixes
+
+* **ios:** update native lib to latest version ([#79](https://github.com/OutSystems/cordova-outsystems-inappbrowser/issues/79)) ([83cc183](https://github.com/OutSystems/cordova-outsystems-inappbrowser/commit/83cc1837c5351632b040cc7777b8e0f9a7affcad))
+
 ## [2.1.1](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.1.0...2.1.1) (2026-09-18)
 
 
