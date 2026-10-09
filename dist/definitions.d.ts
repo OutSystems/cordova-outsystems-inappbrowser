@@ -57,7 +57,7 @@ export interface AndroidWebViewOptions {
     hardwareBack: boolean;
     pauseMedia: boolean;
     isIsolated?: boolean;
-    /** Patterns checked against each finished page load; matching one closes the WebView natively. Can be plain text or regex - plain text is matched as a substring anywhere in the URL. Android only. Useful for redirect-based flows with a known "done" URL (e.g. OAuth logins or payment confirmations) where you want the WebView to close reliably as soon as that URL loads. */
+    /** Patterns checked against each finished page load; matching one closes the WebView natively. Can be plain text or regex - plain text is matched as a substring anywhere in the URL. Android only. Useful for redirect-based flows with a known "done" URL where you want the WebView to close reliably as soon as that URL loads. */
     successUrlPatterns?: string[];
 }
 export declare enum DismissStyle {
