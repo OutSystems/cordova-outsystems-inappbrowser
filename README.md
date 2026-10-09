@@ -118,6 +118,7 @@ The action is composed of the following parameters:
 		- **hardwareBack**: A boolean that, if set to true, uses the hardware back button to navigate backwards through the Web View's history. If there is no previous page, the Web View will close.
 		- **pauseMedia**: A boolean that, if set to true, makes the Web View pause/resume with the app to stop background audio. Note that this may be required to avoid Google Play issues like YouTube video playback while the application is in the background.
 		- **isIsolated**: A boolean that, if set to true, runs the InAppBrowser in an isolated WebView process on Android 28+. Defaults to true.
+		- **successUrlPatterns**: An array of patterns checked against each finished page load; matching one closes the Web View natively, independent of whether the host app's JS is able to react. Can be plain text or regex - plain text is matched as a substring anywhere in the URL. Useful for redirect-based flows with a known "done" URL (e.g. OAuth logins or payment confirmations) where you want the Web View to close reliably as soon as that URL loads.
 	- **iOS**: iOS-specific Web View options.
 		- **allowOverScroll**:  A boolean that, if set to true, turns on the Web View bounce property.
 		- **enableViewportScale**: A boolean that, if set to true, prevents viewport scaling through a meta tag.
