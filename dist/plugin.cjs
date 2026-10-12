@@ -47,7 +47,8 @@ const DefaultAndroidWebViewOptions = {
   allowZoom: false,
   hardwareBack: true,
   pauseMedia: true,
-  isIsolated: true
+  isIsolated: true,
+  successUrlPatterns: []
 };
 const DefaultiOSWebViewOptions = {
   allowOverScroll: true,

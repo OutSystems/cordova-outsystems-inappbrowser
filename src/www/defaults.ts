@@ -4,7 +4,8 @@ export const DefaultAndroidWebViewOptions: AndroidWebViewOptions = {
     allowZoom: false,
     hardwareBack: true,
     pauseMedia: true,
-    isIsolated: true
+    isIsolated: true,
+    successUrlPatterns: []
 }
 
 export const DefaultiOSWebViewOptions: iOSWebViewOptions = {
