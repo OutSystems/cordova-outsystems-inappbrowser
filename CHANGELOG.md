@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.1.2...2.2.0) (2026-10-12)
+
+
+### Features
+
+* **android:** Allow auto-closing webview + bugfixes ([#80](https://github.com/OutSystems/cordova-outsystems-inappbrowser/issues/80)) ([ef055f6](https://github.com/OutSystems/cordova-outsystems-inappbrowser/commit/ef055f6808ca5e1bb55bcf0d2e30411dce693ebc))
+
 ## [2.1.2](https://github.com/OutSystems/cordova-outsystems-inappbrowser/compare/2.1.1...2.1.2) (2026-10-07)
 
 
