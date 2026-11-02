@@ -10,7 +10,7 @@ buildscript {
 }
 
 dependencies{
-    implementation("io.ionic.libs:ioninappbrowser-android:2.1.0@aar")
+    implementation("io.ionic.libs:ioninappbrowser-android:99.0.0-rmet5348@aar")
 
     implementation("androidx.browser:browser:1.8.0")
     implementation("com.google.android.gms:play-services-auth:21.2.0")
@@ -40,4 +40,9 @@ android {
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
     }
+}
+
+// RMET-5348 TEST ONLY - do not merge: resolve the locally built native library bundled in this plugin (local-maven-ioninappbrowser-android)
+repositories {
+    maven { url "${rootDir}/app/src/main/local-maven-ioninappbrowser-android" }
 }

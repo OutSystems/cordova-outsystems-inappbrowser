@@ -22,6 +22,7 @@
         <source-file src="src/android/OSInAppBrowserSystemBrowserInputArguments.kt" target-dir="app/src/main/kotlin/com/outsystems/plugins/inappbrowser/osinappbrowser"/>
         <source-file src="src/android/OSInAppBrowserWebViewInputArguments.kt" target-dir="app/src/main/kotlin/com/outsystems/plugins/inappbrowser/osinappbrowser"/>
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+        <resource-file src="local-maven-ioninappbrowser-android" target="local-maven-ioninappbrowser-android"/>
     </platform>
     <platform name="ios" package="swift">
         <config-file parent="/*" target="config.xml">
