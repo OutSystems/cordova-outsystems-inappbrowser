@@ -29,6 +29,25 @@ If your use case requires sharing `localStorage` or cookies between the main app
 
 > **Breaking Change (Android)**: Apps upgrading to this version will lose any existing `localStorage` or cookies previously stored by the InAppBrowser on Android 28+ on the first run. This is because the WebView now runs in a separate process with its own data directory. Users may need to re-authenticate with websites that relied on persisted session data.
 
+#### Location Permissions (Android)
+The plugin does not declare `ACCESS_COARSE_LOCATION` or `ACCESS_FINE_LOCATION`. By default, geolocation requests from pages loaded in the Web View (e.g. Google Maps) are denied.
+
+> **Breaking Change (Android)**: Previous versions declared the location permissions for you. If your app relies on location access in the Web View, set the `LOCATION_PERMISSION_TYPE` preference when adding the plugin.
+
+| Value | Permissions added to the app |
+| --- | --- |
+| `NONE` (default) | None |
+| `APPROXIMATE` | `ACCESS_COARSE_LOCATION` |
+| `PRECISE` | `ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION` |
+
+The permissions are added to the app's `AndroidManifest.xml` by a hook, after the `prepare` step. The preference can also be changed in the app's `config.xml`, inside the `<platform name="android">` element:
+
+```xml
+<preference name="LOCATION_PERMISSION_TYPE" value="PRECISE" />
+```
+
+Location is a sensitive permission for Google Play. If you add these permissions, you may need to submit a declaration in the Play Console justifying why your app needs them. See Google's article on [permissions and APIs that access sensitive information](https://support.google.com/googleplay/android-developer/answer/9799150) for the requirements.
+
 ## Supported Platforms
 
 - iOS
